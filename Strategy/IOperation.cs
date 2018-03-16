@@ -2,6 +2,6 @@
 {
     public interface IOperation
     {
-        int Calculate();
+        int Calculate(int val1, int val2);
     }
 }
