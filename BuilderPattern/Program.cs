@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BuilderPattern.Builders;
+using System;
 
 namespace BuilderPattern
 {
@@ -6,7 +7,17 @@ namespace BuilderPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MealBuilder mealBuilder = new MealBuilder();
+
+            Meal vegMeal = mealBuilder.PrepareVegMeal();
+            vegMeal.ShowItems();
+
+            Console.WriteLine();
+
+            Meal nonVegMeal = mealBuilder.PrepareNonVegMeal();
+            vegMeal.ShowItems();
+
+            Console.ReadKey();
         }
     }
 }
