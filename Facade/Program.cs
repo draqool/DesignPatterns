@@ -6,8 +6,13 @@ namespace Facade
     {
         static void Main(string[] args)
         {
-            int a = 20;
-            Console.WriteLine("Hello World!");
+            ShapeMaker shapeMaker = new ShapeMaker();
+
+            shapeMaker.DrawCircle();
+            shapeMaker.DrawRectangle();
+            shapeMaker.DrawSquare();
+
+            Console.ReadKey();
         }
     }
 }
