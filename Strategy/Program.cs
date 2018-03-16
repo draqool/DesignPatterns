@@ -2,16 +2,20 @@
 
 namespace Strategy
 {
-    public interface IIpProtocolProvider
-    {
-        void Create();
-    }
-
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Context context = new Context(new OperationAdd());
+            Console.WriteLine("10 + 5 = " + context.executeStrategy(10, 5));
+
+            context = new Context(new OperationSubstract());
+            Console.WriteLine("10 - 5 = " + context.executeStrategy(10, 5));
+
+            context = new Context(new OperationMultiply());
+            Console.WriteLine("10 * 5 = " + context.executeStrategy(10, 5));
+
+            Console.ReadKey();
         }
     }
 }
