@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{62A1DDE9-033A-4849-94DE-ED6248D1B975}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{31880094-0F15-43EE-9506-83E3F3B63F10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{A5208789-A52E-48E9-ADCC-EF3D0DB1E89E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{A5208789-A52E-48E9-ADCC-EF3D0DB1E89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{D71415FF-8701-47F2-8438-72D9B8C0E30B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A5208789-A52E-48E9-ADCC-EF3D0DB1E89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5208789-A52E-48E9-ADCC-EF3D0DB1E89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5208789-A52E-48E9-ADCC-EF3D0DB1E89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71415FF-8701-47F2-8438-72D9B8C0E30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71415FF-8701-47F2-8438-72D9B8C0E30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71415FF-8701-47F2-8438-72D9B8C0E30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71415FF-8701-47F2-8438-72D9B8C0E30B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
