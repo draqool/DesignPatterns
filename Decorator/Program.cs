@@ -1,4 +1,7 @@
-﻿using System;
+﻿using DecoratorPattern.Component;
+using DecoratorPattern.ConcreteComponents;
+using DecoratorPattern.ConcreteDecorators;
+using System;
 
 namespace DecoratorPattern
 {
@@ -6,7 +9,12 @@ namespace DecoratorPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Pizza largePizza = new LargePizza();
+            largePizza = new CheeseDecorator(largePizza);
+
+            Console.WriteLine("{0:C2}", largePizza.CalculateCost());
+
+            Console.ReadKey();
         }
     }
 }
