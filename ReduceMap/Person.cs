@@ -7,7 +7,7 @@ namespace ReduceMap
         public string Name { get; set; }
         public int Age { get; set; }
 
-        public List<Person> GetListOfPerson
+        public static List<Person> GetListOfPerson
         {
             get
             {
