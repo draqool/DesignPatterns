@@ -6,7 +6,12 @@ namespace StatePattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var account = new Account(() => Console.WriteLine("unfreezed"));
+            account.Deposit(1000);
+            account.Freeze();
+            account.Withdraw(200);
+     
+            Console.ReadKey();
         }
     }
 }
