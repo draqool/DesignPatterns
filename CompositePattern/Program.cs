@@ -6,7 +6,7 @@ namespace CompositePattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("init");
+           
         }
     }
 }
