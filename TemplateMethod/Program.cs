@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TemplateMethod
 {
@@ -10,6 +6,17 @@ namespace TemplateMethod
     {
         static void Main(string[] args)
         {
+            DataExporter exporter = null;
+
+            exporter = new ExcelExporter();
+            exporter.ExportFormatedData();
+
+            Console.WriteLine();
+
+            exporter = new PDFExporter();
+            exporter.ExportFormatedData();
+
+            Console.Read();
         }
     }
 }
