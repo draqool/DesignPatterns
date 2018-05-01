@@ -10,7 +10,7 @@ namespace FilterPattern.Criteria
 
             foreach (var person in persons)
             {
-                if (person.Gender.Equals("FEMALE"))
+                if (person.Gender.Equals("Female"))
                 {
                     femalePersons.Add(person);
                 }

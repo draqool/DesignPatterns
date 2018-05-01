@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CriteriaOperator\AndCriteria.cs" />
+    <Compile Include="CriteriaOperator\OrCriteria.cs" />
+    <Compile Include="Criteria\CriteriaFemale.cs" />
+    <Compile Include="Criteria\CriteriaMale.cs" />
+    <Compile Include="Criteria\CriteriaSingle.cs" />
     <Compile Include="ICriteria.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
@@ -50,8 +55,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Criteria\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
