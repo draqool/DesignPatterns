@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{62A1DDE9-033A-4849-94DE-ED6248D1B975}"
 EndProject
@@ -21,11 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReduceMap", "ReduceMap\Redu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{2A2E6F03-18D7-4A05-9627-E3E92A4A855E}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{D6E25233-B625-4EE6-8149-9A5E315D4788}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{6A518ED3-A790-41C0-89C3-9AA4C1B295E7}"
->>>>>>> f3ca344dedc6502d9029c9aee28888dc4778059a
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{6A518ED3-A790-41C0-89C3-9AA4C1B295E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterPattern", "FilterPattern\FilterPattern.csproj", "{D30AC5F6-FB86-41B4-A00A-24F498D09E03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,17 +69,18 @@ Global
 		{2A2E6F03-18D7-4A05-9627-E3E92A4A855E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A2E6F03-18D7-4A05-9627-E3E92A4A855E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A2E6F03-18D7-4A05-9627-E3E92A4A855E}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{D6E25233-B625-4EE6-8149-9A5E315D4788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6E25233-B625-4EE6-8149-9A5E315D4788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6E25233-B625-4EE6-8149-9A5E315D4788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6E25233-B625-4EE6-8149-9A5E315D4788}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{6A518ED3-A790-41C0-89C3-9AA4C1B295E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6A518ED3-A790-41C0-89C3-9AA4C1B295E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A518ED3-A790-41C0-89C3-9AA4C1B295E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A518ED3-A790-41C0-89C3-9AA4C1B295E7}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> f3ca344dedc6502d9029c9aee28888dc4778059a
+		{D30AC5F6-FB86-41B4-A00A-24F498D09E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D30AC5F6-FB86-41B4-A00A-24F498D09E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D30AC5F6-FB86-41B4-A00A-24F498D09E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D30AC5F6-FB86-41B4-A00A-24F498D09E03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
