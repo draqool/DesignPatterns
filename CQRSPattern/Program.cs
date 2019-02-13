@@ -10,6 +10,7 @@ namespace CQRSPattern
     {
         static void Main(string[] args)
         {
+            //test
         }
     }
 }
